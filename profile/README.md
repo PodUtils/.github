@@ -17,14 +17,25 @@
 
 | Tool | What it does | Status |
 |:--|:--|:--|
-| **[podvm](https://github.com/PodUtils/podvm)** | Container runtime for rootful-but-restricted sandboxes, CI executors and HPC nodes | `beta` |
-| **[podssh](https://github.com/PodUtils/podssh)** | SSH from machines whose only way out is HTTPS, through a WebSocket relay | `beta` |
-| **[podnet](https://github.com/PodUtils/podnet)** | Tunnels, WARP and per-process proxying in one binary | `beta` |
-| **podshell** | A resilient remote terminal, a mosh alternative for strict networks | `soon` |
-| **podmesh** | Mesh networking between hosts behind NAT and strict firewalls | `soon` |
+| **[pod](https://github.com/PodUtils/pod)** | One installer for every PodUtils tool: install, pin, verify, update, roll back | `soon` |
 | **podcat** | Pipe bytes between sockets, tunnels and processes, like netcat and socat | `soon` |
-| **podinfo** | Fetch and probe a host: what it is, and what it lets you do | `soon` |
 | **podfs** | File system tools for restricted hosts and sandboxes | `soon` |
+| **podinfo** | Fetch and probe a host: what it is, and what it lets you do | `soon` |
+| **[podinit](https://github.com/PodUtils/podinit)** | Turn a fresh Linux server into a locked-down fleet node in one command | `soon` |
+| **[podkey](https://github.com/PodUtils/podkey)** | An in-memory secret agent with a time window, like ssh-agent for any secret | `soon` |
+| **[podlog](https://github.com/PodUtils/podlog)** | Ship logs and metrics from a node over HTTPS, with buffering and redaction | `soon` |
+| **podmesh** | Mesh networking between hosts behind NAT and strict firewalls | `soon` |
+| **[podnet](https://github.com/PodUtils/podnet)** | Tunnels, WARP and per-process proxying in one binary | `beta` |
+| **[podnode](https://github.com/PodUtils/podnode)** | The one agent of a fleet server: enrol, supervise, self-update, no open port | `soon` |
+| **[podrelay-worker](https://github.com/PodUtils/podrelay-worker)** | The podssh relay as a Cloudflare Worker with Durable Objects | `soon` |
+| **[podrepl](https://github.com/PodUtils/podrepl)** | Continuous SQLite replication between nodes and to object storage | `soon` |
+| **[podrunner](https://github.com/PodUtils/podrunner)** | Ephemeral CI runners on your own servers, one fresh unit per job | `soon` |
+| **podshell** | A resilient remote terminal, a mosh alternative for strict networks | `soon` |
+| **[podsnap](https://github.com/PodUtils/podsnap)** | Encrypted, append-only backups with signed manifests and verify | `soon` |
+| **[podssh](https://github.com/PodUtils/podssh)** | SSH from machines whose only way out is HTTPS, through a WebSocket relay | `beta` |
+| **[podutils](https://github.com/PodUtils/podutils)** | The PodUtils umbrella: install and manage the whole family | `soon` |
+| **[podvm](https://github.com/PodUtils/podvm)** | Container runtime for rootful-but-restricted sandboxes, CI executors and HPC nodes | `beta` |
+| **[podwatch](https://github.com/PodUtils/podwatch)** | Outside prober and heartbeat that alerts once and closes on recovery | `soon` |
 
 <sub>Shared libraries for all of them live in <a href="https://github.com/PodUtils/podcrates"><b>podcrates</b></a>.</sub>
 
