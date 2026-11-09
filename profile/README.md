@@ -18,8 +18,8 @@
 | Tool | What it does | Status |
 |:--|:--|:--|
 | **[pod](https://github.com/PodUtils/pod)** | One installer for every PodUtils tool: install, pin, verify, update, roll back | `soon` |
-| **[podci](https://github.com/PodUtils/podci)** | Run CI/CD actions on pods | `soon` |
 | **podcat** | Pipe bytes between sockets, tunnels and processes, like netcat and socat | `soon` |
+| **[podci](https://github.com/PodUtils/podci)** | Run CI/CD actions on pods | `soon` |
 | **podfs** | File system tools for restricted hosts and sandboxes | `soon` |
 | **podinfo** | Fetch and probe a host: what it is, and what it lets you do | `soon` |
 | **[podinit](https://github.com/PodUtils/podinit)** | Turn a fresh Linux server into a locked-down fleet node in one command | `soon` |
