@@ -17,9 +17,9 @@
 
 | Tool | What it does | Status |
 |:--|:--|:--|
-| **[pod](https://github.com/PodUtils/pod)** | One installer for every PodUtils tool: install, pin, verify, update, roll back | `soon` |
 | **podcat** | Pipe bytes between sockets, tunnels and processes, like netcat and socat | `soon` |
 | **[podci](https://github.com/PodUtils/podci)** | Run CI/CD actions on pods | `soon` |
+| **[podforge](https://github.com/PodUtils/podforge)** | Forge backends and platform interop: git hosts, Radicle and other git alternatives behind one interface | `soon` |
 | **podfs** | File system tools for restricted hosts and sandboxes | `soon` |
 | **podinfo** | Fetch and probe a host: what it is, and what it lets you do | `soon` |
 | **[podinit](https://github.com/PodUtils/podinit)** | Turn a fresh Linux server into a locked-down fleet node in one command | `soon` |
@@ -31,12 +31,12 @@
 | **[podrelay-worker](https://github.com/PodUtils/podrelay-worker)** | The podssh relay as a Cloudflare Worker with Durable Objects | `soon` |
 | **[podrepl](https://github.com/PodUtils/podrepl)** | Continuous SQLite replication between nodes and to object storage | `soon` |
 | **[podrunner](https://github.com/PodUtils/podrunner)** | Ephemeral CI runners on your own servers, one fresh unit per job | `soon` |
+| **[pods](https://github.com/PodUtils/pods)** | One installer for every PodUtils tool: install, pin, verify, update, roll back | `soon` |
 | **podshell** | A resilient remote terminal, a mosh alternative for strict networks | `soon` |
 | **[podsnap](https://github.com/PodUtils/podsnap)** | Encrypted, append-only backups with signed manifests and verify | `soon` |
 | **[podssh](https://github.com/PodUtils/podssh)** | SSH from machines whose only way out is HTTPS, through a WebSocket relay | `beta` |
-| **[podutils](https://github.com/PodUtils/podutils)** | The PodUtils umbrella: install and manage the whole family | `soon` |
+| **[podstat](https://github.com/PodUtils/podstat)** | Outside prober and heartbeat that alerts once and closes on recovery | `soon` |
 | **[podvm](https://github.com/PodUtils/podvm)** | Container runtime for rootful-but-restricted sandboxes, CI executors and HPC nodes | `beta` |
-| **[podwatch](https://github.com/PodUtils/podwatch)** | Outside prober and heartbeat that alerts once and closes on recovery | `soon` |
 
 <sub>Shared libraries for all of them live in <a href="https://github.com/PodUtils/podcrates"><b>podcrates</b></a>.</sub>
 
